@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Flimkart</title>
+  <style>
+    :root {
+  --main-bg-color: rgba(0, 209, 216, 0.778);
+}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: var(--main-bg-color);
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: var(--main-bg-color);
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-container button:hover {
+    background-color: aqua;
+    }
+
+    .login-container p {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .login-container a {
+      color: var(--main-bg-color);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login to Flimkart</h2>
+    <form>
+      <input type="text" placeholder="Username or Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#">Register here</a></p>
+  </div>
+</body>
+</html>

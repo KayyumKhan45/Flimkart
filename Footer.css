@@ -1,0 +1,18 @@
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background: var(--main-bg-color);
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Optional responsive tweak */
+@media (max-width: 600px) {
+  .foot {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
